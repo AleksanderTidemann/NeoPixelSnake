@@ -16,8 +16,8 @@ You need:
 
 * [Adafruit NeoPixel LED matrix](https://www.adafruit.com/product/1487) (8x8 or bigger)
 
-  * [Mini-USB breakout board](https://www.sparkfun.com/products/9966) to supply LED's with sufficient 5v2A power.
-    * To solder this up, just check out [this video](https://www.youtube.com/watch?v=j_VvLHZEPZ4)
+  * The Adafruit matricies often need about 5v2A power to work properly. Since my Arduino can only give a couple of mA power I bought a [mini-USB breakout board](https://www.sparkfun.com/products/9966), 100mf25v capasitor, cable and a USB-to-wall connector.
+    * Just check out [this video](https://www.youtube.com/watch?v=j_VvLHZEPZ4)
 
 I just used 4 buttons (digital pins) as controllers. Not very user-friendly, but it works.
 
