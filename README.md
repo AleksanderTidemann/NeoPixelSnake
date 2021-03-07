@@ -3,7 +3,7 @@
 
 Play snake on your LED's. 
 
-![snake](img\snake.gif)
+![snake](img/snake.gif)
 
 You need:
 
@@ -21,4 +21,4 @@ You need:
 
 I just used 4 buttons (digital pins) as controllers. Not very user-friendly, but it works.
 
-![button](img\button.png)
+![button](img/button.png)
