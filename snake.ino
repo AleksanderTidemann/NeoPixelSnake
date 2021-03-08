@@ -56,9 +56,7 @@ void loop() {
 
 void draw() {
     matrix.clear();
-    for (int i = 0; i < sizeof(snakeBody); i++) {
-        matrix.setPixelColor(snakeBody[i], 0, 255, 0);
-    }
+    for (int i = 0; i < sizeof(snakeBody); i++) { matrix.setPixelColor(snakeBody[i], 0, 255, 0); }
     matrix.setPixelColor(food, 255, 0, 0);
     matrix.show();
 }
