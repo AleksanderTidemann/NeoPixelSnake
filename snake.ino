@@ -110,7 +110,7 @@ void updateSnake() {
     // check for death
     if (onSnake(newBody + snakeBody.last())) {
         setup();
-    } else { // update snakeBody
+    } else { // increment snake head and remove tail.
         snakeBody.push(snakeBody.last() + newBody);
         if (snakeBody.last() != food) {
             snakeBody.shift();
@@ -124,9 +124,7 @@ void updateSnake() {
 
 bool onSnake(int elem) {
     for (int x=0; x < sizeof(snakeBody); x++) {
-        if (snakeBody[x] == elem) {
-            return true;
-        }
+        if (snakeBody[x] == elem) {return true;}
     }
     return false;
 }
