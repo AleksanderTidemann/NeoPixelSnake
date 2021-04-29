@@ -7,8 +7,6 @@ Play snake on your LED's.
  <img src="img/snake.gif" width=440>
 </p>
 
-You need:
-
 * Arduino Uno (or any arduino)
 
   * Adafruit NeoPixel library
